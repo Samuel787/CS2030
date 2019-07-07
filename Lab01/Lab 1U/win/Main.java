@@ -15,6 +15,9 @@ public class Main {
       individualID++;
     }
 
+    //remember to close the scanner
+    scanner.close();
+
     // PROCESS
     String stats = Simulator.simulate(customersID, customerArrival, individualID);
 
