@@ -1,0 +1,15 @@
+potential classes:
+server
+customer
+waiting queue (?) -> inside server
+events
+Global event handler -> can have: event queue(?) 
+
+(You can change some of them to java collection framework like queue to avoid the need to implement everything)
+
+There must be a Simulator.java
+
+You must not change the Main.java -> Do not change thing in
+Simulator.java that main needs
+
+

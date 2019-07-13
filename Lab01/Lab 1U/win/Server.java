@@ -5,12 +5,18 @@ public class Server{
 	private int custQueue; //waiting queue
 	private double serverNext;
 	private double currTime;
+	private Queue custQueue1;
 
-	public Server(int serverID, boolean serverBusy, int custQueue, double serverNext){
+	public Server(int serverID, boolean serverBusy, int custQueue, double serverNext, Queue1 queue1){
 		this.serverID = serverID;
 		this.serverBusy = serverBusy;
 		this.custQueue = custQueue;
 		this.serverNext = serverNext;
+		this.custQueue1 = queue1;
+	 }
+	
+	public Queue1 getCustQueue1(){
+		return (Queue1)this.custQueue1;
 	}
 	public void setServerID(int serverID){
 		this.serverID = serverID;

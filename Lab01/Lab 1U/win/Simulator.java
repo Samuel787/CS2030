@@ -1,6 +1,6 @@
 public class Simulator {
   // Constants
-  public static final double SERVICE_TIME = 1.0;
+  public static final double SERVICE_TIME = 1.0; //THIS IS ACTUALLY NOT FIXED
   public static final int MAX_EVENTS = 1100; // 1000 + 100
   public static final int UNKNOWN = -1; // Multi-purpose
   
@@ -14,7 +14,8 @@ public class Simulator {
   public static String simulate(int[] custIDs, double[] custArriveTime, int numArrival) {
     /** Variables */
     // Server
-    Server server = new Server(0, false, UNKNOWN, 0.0);
+    Queue1 queue1 = new Queue1(1);
+    Server server = new Server(0, false, UNKNOWN, 0.0, queue1);
 
     // Customers
     Customer[] customers = new Customer[MAX_EVENTS];
@@ -32,9 +33,6 @@ public class Simulator {
     // Initialize
     for(numEvents=0; numEvents<numArrival; numEvents++) {
       customers[numEvents] = new Customer(numEvents, custArriveTime[numEvents], 0.0);
-      //customers[numEvents].setCustServedTime(0.0);;
-      //customers[numEvents].setCustArrivalTime(custArriveTime[numEvents]);
-      //custServedTime[numEvents] = 0.0;
       events[numEvents] = new Event(ARRIVES, UNKNOWN, custIDs[numEvents], customers[numEvents].getCustArrivalTime());
     }
 
@@ -76,17 +74,6 @@ public class Simulator {
           if(nextEvent.getState() != UNKNOWN) {
             events[numEvents] = nextEvent;
             // Re-arrange
-            /*
-            for(int i=numEvents; i>0; i--) {
-              if(events[i].getTime() < events[i-1].getTime() ||
-                (events[i].getTime() == events[i-1].getTime() &&
-                  events[i].getState() >= events[i].getState())){
-                //swap events
-                Event tempEvent = events[i];
-                events[i] = events[i-1];
-                events[i-1] = tempEvent;
-              }
-            }*/
             events = shuffleEvents(events, numEvents);
             numEvents++;
           }
@@ -108,17 +95,6 @@ public class Simulator {
           if(nextEvent.getState() != UNKNOWN) {
             events[numEvents] = nextEvent;
             // Re-arrange
-            /*
-            for(int i=numEvents; i>0; i--) {
-              if(events[i].getTime() < events[i-1].getTime()||
-                (events[i].getTime() == events[i-1].getTime() &&
-                  events[i].getState() >= events[i-1].getState())){
-                //swap
-                Event tempEvent = events[i];
-                events[i] = events[i-1];
-                events[i-1] = tempEvent;
-              }
-            }*/
             events = shuffleEvents(events, numEvents);
             numEvents++;
           }
@@ -134,17 +110,6 @@ public class Simulator {
             events[numEvents] = nextEvent;
 
             // Re-arrange
-            /*
-            for(int i=numEvents; i>0; i--) {
-              if(events[i].getTime() < events[i-1].getTime() ||
-                (events[i].getTime() == events[i-1].getTime() &&
-                  events[i].getState() > events[i-1].getState())){
-                //swap
-                Event tempEvent = events[i];
-                events[i] = events[i-1];
-                events[i-1] = tempEvent;
-              }
-            }*/
             events = shuffleEvents(events, numEvents);
             numEvents++;
           }
@@ -159,17 +124,6 @@ public class Simulator {
             events[numEvents] = nextEvent;
 
             // Re-arrange
-            /*
-            for(int i=numEvents; i>0; i--) {
-              if(events[i].getTime() < events[i-1].getTime() ||
-                (events[i].getTime() == events[i-1].getTime() &&
-                  events[i].getState() >= events[i-1].getState())){
-
-                  Event tempEvent = events[i];
-                  events[i] = events[i-1];
-                  events[i-1] = tempEvent;
-              }
-            }*/
             events = shuffleEvents(events, numEvents);
             numEvents++;
           }
@@ -194,17 +148,6 @@ public class Simulator {
             events[numEvents] = nextEvent;
 
             // Re-arrange
-            /*
-            for(int i=numEvents; i>0; i--) {
-              if(events[i].getTime() < events[i-1].getTime() ||
-                (events[i].getTime() == events[i-1].getTime() &&
-                  events[i].getState() >= events[i-1].getState())){
-                Event tempEvent = events[i];
-                events[i] = events[i-1];
-                events[i-1] = tempEvent;
-              }
-            }
-            */
             events = shuffleEvents(events, numEvents);
             numEvents++;
           }

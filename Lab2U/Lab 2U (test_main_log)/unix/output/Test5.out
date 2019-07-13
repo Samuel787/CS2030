@@ -1,0 +1,30 @@
+0.500 0 arrives
+0.500 0 served by 0
+0.600 1 arrives
+0.600 1 waits for 0
+0.700 2 arrives
+0.700 2 waits for 0
+1.500 0 done with 0
+1.500 1 served by 0
+1.500 3 arrives
+1.500 3 waits for 0
+1.600 4 arrives
+1.600 4 waits for 0
+1.700 5 arrives
+1.700 5 leaves
+2.500 1 done with 0
+2.500 2 served by 0
+2.500 6 arrives
+2.500 6 waits for 0
+2.600 7 arrives
+2.600 7 leaves
+2.700 8 arrives
+2.700 8 leaves
+3.500 2 done with 0
+3.500 4 served by 0
+4.500 4 done with 0
+4.500 6 served by 0
+5.500 6 done with 0
+5.500 3 served by 0
+6.500 3 done with 0
+1.767, 6, 3
