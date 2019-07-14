@@ -12,7 +12,7 @@ public class Main {
     int servMaxCust = scanner.nextInt();
     int maxServer = scanner.nextInt();
     int servQueueSize = scanner.nextInt();
-
+   
     while(scanner.hasNextDouble()) {
       customersID[individualID] = individualID;
       customerArrival[individualID] = scanner.nextDouble();
@@ -21,7 +21,7 @@ public class Main {
 
     // PROCESS
     String stats = Simulator.simulate(customersID, customerArrival, individualID, servMaxCust, maxServer, servQueueSize);
-
+ 
     // OUTPUT
     System.out.println(stats);
     scanner.close();

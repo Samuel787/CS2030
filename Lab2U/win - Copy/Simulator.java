@@ -188,8 +188,8 @@ public class Simulator {
   private static Event[] arrangeEvents(Event[] eventQueue, int numEvents){
     for(int i=numEvents; i>0; i--){
       if(eventQueue[i].getTime() < eventQueue[i-1].getTime() ||
-      eventQueue[i].getTime() == eventQueue[i-1].getTime() &&
-      eventQueue[i].getState() >= eventQueue[i-1].getState()){
+      (eventQueue[i].getTime() == eventQueue[i-1].getTime() &&
+      eventQueue[i].getState() >= eventQueue[i-1].getState())){
         Event tempEvent = eventQueue[i];
         eventQueue[i] = eventQueue[i-1];
         eventQueue[i-1] = tempEvent;
