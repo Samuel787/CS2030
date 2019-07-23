@@ -1,0 +1,68 @@
+0.246 0 arrives
+0.246 0 served by 0
+1.246 0 done with 0
+3.192 1 arrives
+3.192 1 served by 0
+4.192 1 done with 0
+4.321 2 arrives
+4.321 2 served by 0
+5.116 3 arrives
+5.116 3 waits for 0
+5.321 2 done with 0
+5.321 3 served by 0
+5.398 4 arrives
+5.398 4 waits for 0
+5.984 5 arrives
+5.984 5 leaves
+6.013 5 arrives
+6.013 5 leaves
+6.043 5 arrives
+6.043 5 leaves
+6.073 5 arrives
+6.073 5 leaves
+6.102 5 arrives
+6.102 5 leaves
+6.132 5 arrives
+6.132 5 leaves
+6.162 5 arrives
+6.162 5 leaves
+6.191 5 arrives
+6.191 5 leaves
+6.221 5 arrives
+6.221 5 leaves
+6.251 5 arrives
+6.251 5 leaves
+6.280 5 arrives
+6.280 5 leaves
+6.310 5 arrives
+6.310 5 leaves
+6.321 3 done with 0
+6.321 0 is resting
+6.340 5 arrives
+6.340 5 leaves
+6.369 5 arrives
+6.369 5 leaves
+6.399 5 arrives
+6.399 5 leaves
+6.428 5 arrives
+6.428 5 leaves
+6.447 0 is back
+6.458 5 arrives
+6.458 5 served by 0
+7.458 5 done with 0
+7.458 4 served by 0
+8.458 4 done with 0
+9.308 6 arrives
+9.308 6 served by 0
+10.308 6 done with 0
+16.944 7 arrives
+16.944 7 served by 0
+17.211 8 arrives
+17.211 8 waits for 0
+17.944 7 done with 0
+17.944 8 served by 0
+18.944 8 done with 0
+19.165 9 arrives
+19.165 9 served by 0
+20.165 9 done with 0
+0.300, 10, 16

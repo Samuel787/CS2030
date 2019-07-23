@@ -1,0 +1,33 @@
+0.246 0 arrives
+0.246 0 served by 0
+1.246 0 done with 0
+3.192 1 arrives
+3.192 1 served by 0
+4.192 1 done with 0
+4.321 2 arrives
+4.321 2 served by 0
+5.116 3 arrives
+5.116 3 served by 0
+5.321 2 done with 0
+5.398 4 arrives
+5.398 4 served by 0
+5.984 5 arrives
+5.984 5 served by 0
+6.116 3 done with 0
+6.398 4 done with 0
+6.984 5 done with 0
+6.984 0 is resting
+7.912 0 is back
+9.308 6 arrives
+9.308 6 served by 0
+10.308 6 done with 0
+16.944 7 arrives
+16.944 7 served by 0
+17.211 8 arrives
+17.211 8 served by 1
+17.944 7 done with 0
+18.211 8 done with 1
+19.165 9 arrives
+19.165 9 served by 0
+20.165 9 done with 0
+0.000, 10, 0
