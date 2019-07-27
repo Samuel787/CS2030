@@ -1,0 +1,67 @@
+0.056 General Customer 0 arrives
+0.056 0 served by Human Server0
+1.056 0 done with 0
+1.576 General Customer 1 arrives
+1.576 1 served by Human Server0
+2.576 1 done with 0
+3.294 General Customer 2 arrives
+3.294 2 served by Human Server0
+4.063 Elderly Customer3 arrives
+4.063 3 served by Human Server1
+4.294 2 done with 0
+4.587 General Customer 4 arrives
+4.587 4 served by Human Server0
+5.063 3 done with 1
+5.587 4 done with 0
+5.716 General Customer 5 arrives
+5.716 5 served by Human Server0
+6.716 5 done with 0
+7.677 General Customer 6 arrives
+7.677 6 served by Human Server0
+7.905 General Customer 7 arrives
+7.905 7 served by Human Server0
+8.274 Elderly Customer8 arrives
+8.274 8 served by Human Server1
+8.612 Elderly Customer9 arrives
+8.612 9 served by Human Server2
+8.677 6 done with 0
+8.905 7 done with 0
+9.134 General Customer 10 arrives
+9.134 10 served by Human Server0
+9.274 8 done with 1
+9.612 9 done with 2
+9.612 2 is resting
+10.134 10 done with 0
+11.729 2 is back
+14.413 General Customer 11 arrives
+14.413 11 served by Human Server0
+14.530 Elderly Customer12 arrives
+14.530 12 served by Human Server1
+14.886 Elderly Customer13 arrives
+14.886 13 served by Human Server2
+15.060 General Customer 14 arrives
+15.060 14 served by Human Server0
+15.413 11 done with 0
+15.495 General Customer 15 arrives
+15.495 15 served by Human Server0
+15.530 12 done with 1
+15.886 13 done with 2
+16.060 14 done with 0
+16.457 Elderly Customer16 arrives
+16.457 16 served by Human Server1
+16.495 15 done with 0
+16.495 0 is resting
+16.627 0 is back
+16.786 General Customer 17 arrives
+16.786 17 served by Human Server0
+17.371 Elderly Customer18 arrives
+17.371 18 served by Human Server2
+17.457 16 done with 1
+17.786 17 done with 0
+17.786 0 is resting
+17.975 0 is back
+18.371 18 done with 2
+19.093 General Customer 19 arrives
+19.093 19 served by Human Server0
+20.093 19 done with 0
+0.000, 20, 0

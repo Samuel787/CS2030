@@ -1,0 +1,122 @@
+0.056 0:: GENERAL arrives
+0.056 0 served by 0
+0.056 0 served by 0
+1.056 0 done with 0
+1.056 0 done with 0
+1.576 1:: GENERAL arrives
+1.576 1 served by 0
+1.576 1 served by 0
+2.576 1 done with 0
+2.576 1 done with 0
+2.576 0 is resting
+3.294 2:: GENERAL arrives
+3.294 2 served by 0
+3.294 2 waits for 0
+4.063 3:: ELDERLY arrives
+4.063 3 waits for 0
+4.204 0 is back
+4.204 3 served by 0
+4.205 2 served by 0
+4.294 2 done with 0
+4.587 4:: GENERAL arrives
+4.587 4 served by 0
+4.587 4 waits for 0
+5.204 3 done with 0
+5.205 2 done with 0
+5.587 4 done with 0
+5.587 0 is resting
+5.716 5:: GENERAL arrives
+5.716 5 served by 0
+5.716 5 waits for 0
+6.677 0 is back
+6.677 5 served by 0
+6.678 4 served by 0
+6.716 5 done with 0
+7.677 5 done with 0
+7.677 6:: GENERAL arrives
+7.677 6 served by 0
+7.677 6 waits for 0
+7.678 4 done with 0
+7.905 7:: GENERAL arrives
+7.905 7 served by 0
+7.905 7 waits for 0
+8.274 8:: ELDERLY arrives
+8.274 8 waits for 0
+8.612 9:: ELDERLY arrives
+8.612 9 leaves
+8.677 6 done with 0
+8.905 7 done with 0
+8.905 0 is resting
+9.038 0 is back
+9.038 8 served by 0
+9.039 6 served by 0
+9.134 10:: GENERAL arrives
+9.134 10 served by 0
+9.134 10 waits for 0
+10.038 8 done with 0
+10.039 6 done with 0
+10.134 10 done with 0
+10.134 0 is resting
+12.251 0 is back
+12.251 10 served by 0
+12.252 7 served by 0
+13.251 10 done with 0
+13.252 7 done with 0
+13.252 0 is resting
+13.704 0 is back
+14.413 11:: GENERAL arrives
+14.413 11 served by 0
+14.413 11 served by 0
+14.530 12:: ELDERLY arrives
+14.530 12 waits for 0
+14.886 13:: ELDERLY arrives
+14.886 13 waits for 0
+15.060 14:: GENERAL arrives
+15.060 14 served by 0
+15.060 14 waits for 0
+15.413 11 done with 0
+15.413 11 done with 0
+15.495 15:: GENERAL arrives
+15.495 15 leaves
+15.495 15 waits for 0
+16.060 14 done with 0
+16.060 0 is resting
+16.457 16:: ELDERLY arrives
+16.457 16 leaves
+16.786 17:: GENERAL arrives
+16.786 17 leaves
+16.786 17 waits for 0
+17.056 0 is back
+17.056 12 served by 0
+17.057 13 served by 0
+17.371 18:: ELDERLY arrives
+17.371 18 waits for 0
+18.056 12 done with 0
+18.057 13 done with 0
+18.057 0 is resting
+18.189 0 is back
+18.189 18 served by 0
+18.190 14 served by 0
+18.522 17:: GENERAL arrives
+18.522 17 served by 0
+18.522 17 waits for 0
+18.632 15:: GENERAL arrives
+18.632 15 served by 0
+18.632 15 waits for 0
+19.093 19:: GENERAL arrives
+19.093 19 served by 0
+19.093 19 waits for 0
+19.189 18 done with 0
+19.189 19 served by 0
+19.190 14 done with 0
+19.522 17 done with 0
+19.632 15 done with 0
+20.093 19 done with 0
+20.189 19 done with 0
+20.189 0 is resting
+20.378 0 is back
+20.378 17 served by 0
+20.379 15 served by 0
+21.378 17 done with 0
+21.379 15 done with 0
+0.903, 31, -9
