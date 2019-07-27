@@ -1,0 +1,50 @@
+0.168 0 arrives
+0.168 0 served by 0
+1.168 0 done with 0
+4.727 1 arrives
+4.727 1 served by 0
+5.199 2 arrives
+5.199 2 served by 0
+5.727 1 done with 0
+6.199 2 done with 0
+10.353 3 arrives
+10.353 3 served by 0
+11.353 3 done with 0
+11.867 4 arrives
+11.867 4 served by 0
+12.867 4 done with 0
+14.175 5 arrives
+14.175 5 served by 0
+15.175 5 done with 0
+15.746 6 arrives
+15.746 6 served by 0
+16.746 6 done with 0
+19.685 7 arrives
+19.685 7 served by 0
+20.685 7 done with 0
+23.074 8 arrives
+23.074 8 served by 0
+23.748 9 arrives
+23.748 9 served by 0
+24.074 8 done with 0
+24.748 9 done with 0
+24.748 0 is resting
+26.865 0 is back
+29.632 10 arrives
+29.632 10 served by 0
+30.632 10 done with 0
+32.487 11 arrives
+32.487 11 served by 0
+33.487 11 done with 0
+34.794 12 arrives
+34.794 12 served by 0
+35.794 12 done with 0
+35.901 13 arrives
+35.901 13 served by 0
+36.901 13 done with 0
+36.916 14 arrives
+36.916 14 served by 0
+37.916 14 done with 0
+37.916 0 is resting
+38.048 0 is back
+0.000, 15, 0

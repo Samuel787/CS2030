@@ -1,0 +1,49 @@
+*** The following are bad design
+*** and will be penalized
+1.  Classes are created but not used
+    - For instance, Simulator.java is unchanged but Customer.java is created
+    - However, Customer class is not used in Simulator.java
+2.  public access modifiers for fields or attributes
+    - It means that anyone can change the value to non-sensical value
+    - This totally breaks any abstraction
+3.  Wrong usage through ID
+    - Customers and Servers both has ID
+    - Their classes should have the ID as part of the fields
+    - But in Simulator, the ID is still stored and then Server needs to search
+    - The proper use is to simply store Customer instance
+    - This is especially for Event class
+      Event class should NOT contain array/collection
+      Naming it Events does not help either, it means you don't have Event classes
+      since Events should technically be just Event[]
+4.  Unnecessary use of static
+    - For instance, all methods become static
+    - Which forces fields to be static as well
+    - A Server/Customer needs to be instantiated before use
+    - Once instantiated, any changes should use this non-static instance
+5.  The original code contains many code duplication, this should be abstracted into function
+    - For instance, rearrange the Event array and/or Customer array
+    - Any overly long function, which is duplicated at other places is bad
+
+*** The following are bad design
+*** but are not currently penalized
+1.  Overly OOP design
+    - For instance, a class for a group of Customer is created
+    - e.g., CustomerGroup which its field is only array/collection of Customer
+    - It only has an accessor to return the array/collection
+    *** However, if the changes to the array is done outside this class
+    *** such as in Simulator.java, etc  that part will be penalized
+    *** since a class is already created, any changes to it should be done
+    *** as a method from the class
+
+*** BASIC NOTE
+- Class is a heterogeneous collection of things
+  Use it if you have multiple different things
+  e.g., Event = <Time, State, Customer, Server>
+- Array is for homogeneous collection of things
+  Use it if you have multiple of the same things
+  Most of the time, do not combine both into one
+  e.g., Events = <Time[], State[], Customer[], Server[]>
+  This is bad practice
+- Always abstract into functions if the code is duplicated elsewhere
+- Once you abstract into class, use it
+  You should not search based on a field

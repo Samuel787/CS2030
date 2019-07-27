@@ -1,0 +1,46 @@
+0.034 0 arrives
+0.034 0 served by 0
+0.945 1 arrives
+0.945 1 served by 0
+1.034 0 done with 0
+1.040 2 arrives
+1.040 2 served by 0
+1.945 1 done with 0
+2.040 2 done with 0
+2.071 3 arrives
+2.071 3 served by 0
+2.373 4 arrives
+2.373 4 served by 0
+2.835 5 arrives
+2.835 5 served by 0
+3.071 3 done with 0
+3.149 6 arrives
+3.149 6 served by 0
+3.373 4 done with 0
+3.835 5 done with 0
+3.937 7 arrives
+3.937 7 served by 0
+4.149 6 done with 0
+4.615 8 arrives
+4.615 8 served by 0
+4.750 9 arrives
+4.750 9 served by 0
+4.937 7 done with 0
+5.615 8 done with 0
+5.750 9 done with 0
+5.926 10 arrives
+5.926 10 served by 0
+6.497 11 arrives
+6.497 11 served by 0
+6.926 10 done with 0
+6.959 12 arrives
+6.959 12 served by 0
+7.180 13 arrives
+7.180 13 served by 0
+7.383 14 arrives
+7.383 14 served by 1
+7.497 11 done with 0
+7.959 12 done with 0
+8.180 13 done with 0
+8.383 14 done with 1
+0.000, 15, 0
